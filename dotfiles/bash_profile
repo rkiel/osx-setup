@@ -1,5 +1,4 @@
-export LOCAL_PATH=~/local
-export LOCAL_BIN="${LOCAL_PATH}/bin"
+export LOCAL_BIN="~/bin"
 
 export EDITOR=${LOCAL_BIN}/gvim
 export PATH=${LOCAL_BIN}:$PATH
