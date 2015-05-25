@@ -222,9 +222,9 @@ ssh-add -K
 #### Local Development Environment
 
 ```
-cd ~
-git clone git@github.com:rkiel/local.git
-rm .profile
+mkdir -p ~/GitHub/rkiel
+cd ~/GitHub/rkel
+git clone git@github.com:rkiel/osx-setup.git
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bash_profile ~/.bash_profile
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bashrc ~/.bashrc
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/vimrc ~/.vimrc
