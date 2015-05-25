@@ -159,7 +159,7 @@ bar     ALL=(ALL) ALL
     * set **Safari opens with** All windows from last session
     * set **New windows open with** Empty Page
     * set **New tabs open with** Empty Page
-    * set **Homepage** to https://take-action.herokuapp.com/bookmarks/home
+    * set **Homepage** to https://www.google.com
   * Advanced
     * check **Show Develop menu in menu bar**
 * View
