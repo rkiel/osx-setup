@@ -1,0 +1,5 @@
+alias branch="git branch"
+alias status="git status; echo; echo STASH:; git stash list; echo"
+alias push="git stash save"
+alias pop="git stash pop --index"
+alias log="git log --graph --decorate --abbrev-commit --pretty=oneline"

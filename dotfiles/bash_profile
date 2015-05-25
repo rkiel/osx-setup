@@ -1,0 +1,9 @@
+export LOCAL_PATH=~/local
+export LOCAL_BIN="${LOCAL_PATH}/bin"
+
+export EDITOR=${LOCAL_BIN}/gvim
+export PATH=${LOCAL_BIN}:$PATH
+
+if [ -f ~/.bashrc ]; then
+  source ~/.bashrc
+fi
