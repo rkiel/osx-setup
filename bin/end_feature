@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+raise "USAGE: end_feature" unless ARGV.size == 0
+
+FEATURE_BRANCH = `git branch|grep '\*'|sed 's/\*\s*//'`.strip
+REMOTE_BRANCH  = `git branch -r|grep origin|grep -v 'HEAD'|grep #{FEATURE_BRANCH}`.strip
+
+raise "invalid feature branch: #{FEATURE_BRANCH}" if ['master','develop'].include? FEATURE_BRANCH
+
+def run_cmd ( cmd )
+  puts cmd
+  success = system cmd
+  unless success
+    system "git checkout master"
+    raise "error"
+  end
+end
+
+run_cmd "git checkout master"
+
+if REMOTE_BRANCH != ""
+  run_cmd "git push origin :#{FEATURE_BRANCH}"
+end
+
+run_cmd "git branch -D #{FEATURE_BRANCH}"
+
+run_cmd "git remote prune origin"
