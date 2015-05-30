@@ -233,5 +233,4 @@ ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/git-completion.bash ~/.git-completion.
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/git-prompt.sh ~/.git-prompt.sh
 mkdir ~/.backup
 mkdir ~/bin
-ln -nfs ~/GitHub/rkiel/osx-setup/bin/* ~/bin
 ```
