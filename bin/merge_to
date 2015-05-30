@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+raise "USAGE: merge_to branch" unless ARGV.size == 1
+
+MERGE_TO_BRANCH = ARGV[0]
+FEATURE_BRANCH  = `git branch|grep '\*'|sed 's/\*\s*//'`.strip
+
+raise "invalid branch: #{MERGE_TO_BRANCH}" unless ['master','develop'].include? MERGE_TO_BRANCH
+
+def run_cmd ( cmd )
+  puts cmd
+  success = system cmd
+  unless success
+    system "git checkout #{FEATURE_BRANCH}"
+    raise "error"
+  end
+end
+
+run_cmd "git checkout #{MERGE_TO_BRANCH}"
+run_cmd "git pull origin #{MERGE_TO_BRANCH}"
+run_cmd "git merge #{FEATURE_BRANCH}"
+run_cmd "git push origin #{MERGE_TO_BRANCH}"
+run_cmd "git checkout #{FEATURE_BRANCH}"
