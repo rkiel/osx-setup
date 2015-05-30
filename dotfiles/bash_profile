@@ -1,12 +1,13 @@
+export OSX_SETUP_BIN="~/GitHub/rkiel/osx-setup/bin"
 export LOCAL_BIN="~/bin"
 
-export EDITOR=${LOCAL_BIN}/gvim
+export PATH=${OSX_SETUP_BIN}:$PATH
 export PATH=${LOCAL_BIN}:$PATH
+
+export EDITOR=${LOCAL_BIN}/gvim
 
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
-
-# PS1="\[\e[1;34m\]\u@\h\[\e[0m\] [ \W ] $ "
 
 export PS1='[\[\e[0;35m\]\u@\h\[\e[0m\] \[\e[1;34m\]\W\[\e[0;32m\]$(__git_ps1 " %s")\[\e[0m\]]\$ '
 
