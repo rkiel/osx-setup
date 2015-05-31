@@ -58,7 +58,7 @@ class Rebase < Base
     feature_branch  = current_branch
     remote_branch   = remote_branch(feature_branch)
 
-    error "USAGE: feature rebase branch" unless standard_branch
+    error "USAGE: feature rebase" unless standard_branch
     error "invalid feature branch: #{feature_branch}" if standard_branches.include? feature_branch
 
     run_cmd "git checkout #{standard_branch}"
@@ -83,7 +83,7 @@ class MergeTo < Base
     elsif argv.size == 1
       merge_to_branch = parts[:standard]
     else
-      error "USAGE: feature merge branch"
+      error "USAGE: feature merge [branch]"
     end
 
     feature_branch  = current_branch
