@@ -22,7 +22,7 @@ class Base
     success = system cmd
     unless success
       #system "git checkout #{default_branch}"
-      error "error"
+      error "(see above)"
     end
     puts
   end
@@ -40,9 +40,10 @@ class Base
 
   def parse_branch (branch)
     parts    = branch.split('-')
+    error "invalid branch: user-standard-feature" unless parts.size > 2
+
     user     = parts.shift
     standard = parts.shift
-    error "invalid branch: user-standard-feature" unless parts.size > 2
     error "invalid user: #{user}" unless ENV['USER'] == user
     error "invalid branch: #{standard}" unless standard_branches.include? standard
     feature  =  parts.join('-')
