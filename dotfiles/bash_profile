@@ -8,8 +8,8 @@ export PATH=${LOCAL_BIN}:$PATH
 
 export EDITOR=${LOCAL_BIN}/gvim
 
-source ~/.git-completion.bash
-source ~/.git-prompt.sh
+source ~/GitHub/rkiel/git-utilities/dotfiles/git-completion.bash
+source ~/GitHub/rkiel/git-utilities/dotfiles/git-prompt.sh
 
 export PS1='[\[\e[0;35m\]\u@\h\[\e[0m\] \[\e[1;34m\]\W\[\e[0;32m\]$(__git_ps1 " %s")\[\e[0m\]]\$ '
 

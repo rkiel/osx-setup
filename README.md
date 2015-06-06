@@ -249,6 +249,4 @@ ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bash_profile ~/.bash_profile
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bashrc ~/.bashrc
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/vimrc ~/.vimrc
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/vim ~/.vim
-ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/git-completion.bash ~/.git-completion.bash
-ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/git-prompt.sh ~/.git-prompt.sh
 ```
