@@ -15,3 +15,14 @@ alias sfind='find . -not \( -type d -name .git -prune \) -not \( -type d -name n
 alias sgrep='find . -not \( -type d -name .git -prune \) -not \( -type d -name node_modes -prune \) -and \( -type f \)|sort -f|xargs grep --color=always'
 alias cgrep='grep --color=always'
 alias vgrep='grep -v'
+
+function get_feature_commands()
+{
+  if [ -z $2 ] ; then
+    COMPREPLY=(`feature tab`)
+  else
+    COMPREPLY=(`feature tab $2`)
+  fi
+}
+
+complete -F get_feature_commands feature
