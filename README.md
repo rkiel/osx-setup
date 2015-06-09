@@ -238,6 +238,7 @@ cd ~/GitHub/rkiel
 Download some GitHub repositories
 
 ```
+git clone git@github.com:rkiel/vim-setup.git
 git clone git@github.com:rkiel/git-utilities.git
 git clone git@github.com:rkiel/osx-setup.git
 ```
@@ -247,6 +248,6 @@ Setup for `bash`, `git` and `vim`
 ```
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bash_profile ~/.bash_profile
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bashrc ~/.bashrc
-ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/vimrc ~/.vimrc
-ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/vim ~/.vim
+ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vimrc ~/.vimrc
+ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vim ~/.vim
 ```

@@ -1,7 +1,9 @@
 export OSX_SETUP_BIN="~/GitHub/rkiel/osx-setup/bin"
 export GIT_UTILITIES_BIN="~/GitHub/rkiel/git-utilities/bin"
+export VIM_BIN="~/GitHub/rkiel/vim-setup/bin"
 export LOCAL_BIN="~/bin"
 
+export PATH=${VIM_BIN}:$PATH
 export PATH=${GIT_UTILITIES_BIN}:$PATH
 export PATH=${OSX_SETUP_BIN}:$PATH
 export PATH=${LOCAL_BIN}:$PATH
