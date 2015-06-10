@@ -159,16 +159,6 @@ bar     ALL=(ALL) ALL
       * **Columns** 128
       * **Rows** 24
 
-#### Git
-* configure global settings for `mygithubid`
-
-```
-git config --global user.name "mygithubid"
-git config --global user.email foo@bar.com
-git config --global color.ui true
-git config --global push.default simple
-```
-
 #### SSH
 
 * create public/private keys with a passphrase
@@ -191,32 +181,16 @@ ssh-add -K
     * paste in **Key**
     * click **Add key**
 
-#### Vim
-
-Create a backup directory
-
-```
-mkdir ~/.backup
-```
-
-Download a GitHub repository
-
-```
-mkdir -p ~/GitHub/rkiel
-cd ~/GitHub/rkiel
-
-git clone git@github.com:rkiel/vim-setup.git
-```
-
-Setup dot files
-
-```
-ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vimrc ~/.vimrc
-ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vim ~/.vim
-```
-
 #### Git
 
+* configure global settings for `mygithubid`
+
+```
+git config --global user.name "mygithubid"
+git config --global user.email foo@bar.com
+git config --global color.ui true
+git config --global push.default simple
+```
 
 Download a GitHub repository
 
@@ -250,3 +224,28 @@ Setup dot files
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bash_profile ~/.bash_profile
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bashrc ~/.bashrc
 ```
+
+#### Vim
+
+Create a backup directory
+
+```
+mkdir ~/.backup
+```
+
+Download a GitHub repository
+
+```
+mkdir -p ~/GitHub/rkiel
+cd ~/GitHub/rkiel
+
+git clone git@github.com:rkiel/vim-setup.git
+```
+
+Setup dot files
+
+```
+ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vimrc ~/.vimrc
+ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vim ~/.vim
+```
+
