@@ -191,35 +191,62 @@ ssh-add -K
     * paste in **Key**
     * click **Add key**
 
-#### Local Development Environment
+#### Vim
 
-Create local directories
+Create a backup directory
 
 ```
 mkdir ~/.backup
-mkdir ~/bin
 ```
 
-Create a location for GitHub repositories
+Download a GitHub repository
 
 ```
 mkdir -p ~/GitHub/rkiel
 cd ~/GitHub/rkiel
-```
 
-Download some GitHub repositories
-
-```
 git clone git@github.com:rkiel/vim-setup.git
+```
+
+Setup dot files
+
+```
+ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vimrc ~/.vimrc
+ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vim ~/.vim
+```
+
+#### Git
+
+
+Download a GitHub repository
+
+```
+mkdir -p ~/GitHub/rkiel
+cd ~/GitHub/rkiel
+
 git clone git@github.com:rkiel/git-utilities.git
+```
+
+#### Bash
+
+Create local bin directory
+
+```
+mkdir ~/bin
+```
+
+Download a GitHub repository
+
+```
+mkdir -p ~/GitHub/rkiel
+cd ~/GitHub/rkiel
+
 git clone git@github.com:rkiel/osx-setup.git
 ```
 
-Setup for `bash`, `git` and `vim`
+Setup dot files
 
 ```
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bash_profile ~/.bash_profile
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bashrc ~/.bashrc
-ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vimrc ~/.vimrc
-ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vim ~/.vim
 ```
