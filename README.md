@@ -10,15 +10,6 @@
     * add Mac (current computer name)
 
 #### Preferences
-* Desktop & Screen Saver
-  * Desktop
-    * choose picture
-  * Screen Saver
-    * choose **Classic**
-    * choose shared folder
-    * check **Shuffle slide order**
-    * change **Start after** to 5 min
-    * edit **Hot Corners** to Start Screen Saver
 * Dock
   * decrease **Size**
   * enable **Magnification**
@@ -247,3 +238,27 @@ Setup dot files
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bash_profile ~/.bash_profile
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bashrc ~/.bashrc
 ```
+
+#### Images
+
+Go to the shared user and download the starter wallpaper and screen saver images
+
+```
+cd /Users/Shared
+git clone git@github.com:rkiel/images-starter.git
+```
+
+#### Preferences
+* Desktop & Screen Saver
+  * Desktop
+    * select **Fill Screen**
+    * click **+** to add a folder under `/Users/Shared/images-starter`
+    * check **Change picture:** Every 5 minutes
+    * check **Random order**
+  * Screen Saver
+    * select **Classic**
+    * choose **Source:** Choose Folder
+    * pick a folder under `/Users/Shared/images-starter`
+    * check **Shuffle slide order**
+    * select **Start after** 5 Minutes
+    * click **Hot Corners** and select **Start Screen Saver** for lower left and right
