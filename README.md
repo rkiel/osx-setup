@@ -218,15 +218,16 @@ verify you can read your private key
 openssl rsa -noout -text -in ~/.ssh/id_rsa
 ```
 
+add credentials to the authentication agent and Key Chain
+```
+ssh-add -K
+```
+
 copy public key into paste buffer
 ```
 cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
-add credentials to the authentication agent and Key Chain
-```
-ssh-add -K
-```
 
 #### GitHub
 * Setting
