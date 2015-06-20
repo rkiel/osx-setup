@@ -49,6 +49,19 @@
 * Sharing
   * change the **Computer Name**
 
+#### Safari
+* Preferences
+  * General
+    * set **Safari opens with** All windows from last session
+    * set **New windows open with** Empty Page
+    * set **New tabs open with** Empty Page
+    * set **Homepage** to https://www.google.com
+  * Advanced
+    * check **Show Develop menu in menu bar**
+* View
+  * Customize Toolbar
+    * drag Home button onto Safari navbar between Sidebar and the spacer
+
 #### Chrome
 * [Download](http://www.google.com/chrome/)
 * Launch
@@ -170,7 +183,7 @@ bar     ALL=(ALL) ALL
     * check **Show Develop menu in menu bar**
 * View
   * Customize Toolbar
-    * drag Home button
+    * drag Home button onto Safari navbar between Sidebar and the spacer
 
 #### Chrome
 * Launch
