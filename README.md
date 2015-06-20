@@ -131,6 +131,11 @@ gcc --version
 git --version
 ```
 
+#### MacVim
+
+To build and install MacVim, follow the setup guide at [vim-setup](https://github.com/rkiel/vim-setup).
+
+
 #### sudo
 
 ```
