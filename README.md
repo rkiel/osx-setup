@@ -38,7 +38,7 @@
 
 #### System Preferences
 * Dock
-  * decrease **Size**
+  * decrease **Size** to about 20%
   * enable **Magnification**
   * check **Automatically hide and show the Dock**
 * Printers & Scanners
@@ -152,7 +152,7 @@ bar     ALL=(ALL) ALL
 
 #### System Preferences
 * Dock
-  * decrease **Size**
+  * decrease **Size** to about 20%
   * enable **Magnification**
   * check **Automatically hide and show the Dock**
 * Security & Privacy
