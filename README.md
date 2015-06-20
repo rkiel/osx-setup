@@ -208,15 +208,23 @@ bar     ALL=(ALL) ALL
 
 #### SSH
 
-* create public/private keys with a passphrase
-* verify you can read your private key
-* copy public key into paste buffer
-* add credentials to the authentication agent and Key Chain
-
+create public/private keys with a passphrase
 ```
 ssh-keygen -t rsa -C "foo@bar.com"
+```
+
+verify you can read your private key
+```
 openssl rsa -noout -text -in ~/.ssh/id_rsa
+```
+
+copy public key into paste buffer
+```
 cat ~/.ssh/id_rsa.pub | pbcopy
+```
+
+add credentials to the authentication agent and Key Chain
+```
 ssh-add -K
 ```
 
