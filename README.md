@@ -19,6 +19,11 @@
 * [vim-setup](https://github.com/rkiel/vim-setup) for `.vimrc` and `vim` plugins
 * [images-starter](https://github.com/rkiel/images-starter) collection of starter images for wallpaper and screen saver
 
+## User accounts
+
+* administrative user called `admin`
+* development user(s) -- one per GitHub account
+
 # Administration user
 
 ## Initial boot create `admin` user
