@@ -151,15 +151,6 @@ bar     ALL=(ALL) ALL
       * check Mac icon (current computer name)
 
 #### System Preferences
-* Desktop & Screen Saver
-  * Desktop
-    * choose picture
-  * Screen Saver
-    * choose **Classic**
-    * choose shared folder
-    * check **Shuffle slide order**
-    * change **Start after** to 5 min
-    * edit **Hot Corners** to Start Screen Saver
 * Dock
   * decrease **Size**
   * enable **Magnification**
@@ -300,7 +291,7 @@ cd /Users/Shared
 git clone git@github.com:rkiel/images-starter.git
 ```
 
-#### Preferences
+#### System Preferences
 * Desktop & Screen Saver
   * Desktop
     * select **Fill Screen**
