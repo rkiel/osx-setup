@@ -76,7 +76,8 @@ Install the latest OS X updates.
   * add a printer and give it a name
 * Security & Privacy
   * General
-    * make sure **Require password** is set
+    * check **Require password**
+    * select **immediately** after sleep or screen save begins
 * Sharing
   * change the **Computer Name**
 
@@ -208,7 +209,8 @@ bar     ALL=(ALL) ALL
   * check **Automatically hide and show the Dock**
 * Security & Privacy
   * General
-    * make sure **Require password** is set
+    * check **Require password**
+    * select **immediately** after sleep or screen save begins
 
 #### Safari
 * Preferences
