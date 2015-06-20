@@ -27,9 +27,6 @@
   * enable **All More Gestures**
   * disable **Secondary Click**
   * diable **Lookup**
-* Users & Groups
- * create a **Standard** user for each GitHub account
- * choose **Use separate password**
 
 #### Chrome
 * [Download](http://www.google.com/chrome/)
@@ -83,6 +80,18 @@ root    ALL=(ALL) ALL
 foo     ALL=(ALL) ALL
 bar     ALL=(ALL) ALL
 ```
+
+# New User
+
+#### Preferences
+* Users & Groups
+  * click **+**
+    * select **New Account** Standard
+    * enter **Full Name** (lower case)
+    * enter **Account Name** (lower case)
+    * click **Password** Use separate password
+    * enter password different from Administration user
+    * click **Create User**
 
 # Development user
 
