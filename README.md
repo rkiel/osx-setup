@@ -81,7 +81,7 @@ foo     ALL=(ALL) ALL
 bar     ALL=(ALL) ALL
 ```
 
-# New User
+# Creating a new user
 
 #### Preferences
 * Users & Groups
@@ -92,6 +92,7 @@ bar     ALL=(ALL) ALL
     * click **Password** Use separate password
     * enter password different from Administration user
     * click **Create User**
+  * use Finder to drag an image onto the default user icon
 
 # Development user
 
