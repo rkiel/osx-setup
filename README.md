@@ -11,6 +11,7 @@
 * `bash`
 * `git` and GitHub
 * `vim`
+* Chrome
 
 ## GitHub repositories
 
@@ -90,12 +91,12 @@
 
 #### Chrome
 * [Download](http://www.google.com/chrome/)
-* Launch
-  * Dock -> Right click -> Options -> select **Keep in Dock**
+* find in Applications and launch
+  * find in Dock -> right click -> Options -> select **Keep in Dock**
 
 #### Terminal
-* Launch
-  * Dock -> Right click -> Options -> select **Keep in Dock**
+* find in Applications and launch
+  * find in Dock -> right click -> Options -> select **Keep in Dock**
 * Preferences
   * General
     * select **On startup, open** New window with profile Novel
@@ -212,14 +213,12 @@ bar     ALL=(ALL) ALL
     * drag Home button onto Safari navbar between Sidebar and the spacer
 
 #### Chrome
-* Launch
-  * Dock -> Right click -> Options -> select **Keep in Dock**
- 
-#### Backblaze
+* find in Applications and launch
+  * find in Dock -> right click -> Options -> select **Keep in Dock**
 
 #### Terminal
-* Launch
-  * Dock -> Right click -> Options -> select **Keep in Dock**
+* find in Applications and launch
+  * find in Dock -> right click -> Options -> select **Keep in Dock**
 * Preferences
   * General
     * select **On startup, open** New window with profile Novel
