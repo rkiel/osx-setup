@@ -1,3 +1,24 @@
+# Opinionated Setup
+
+* I want to spend my time doing development not getting my machine configured.
+* I tend to have more than one computer.
+* I tend to have more than one user account per machine.
+* I want an easy way to get everything setup and keep them consistent.
+
+## Tool Stack
+
+* Mac OS X
+* `bash`
+* `git` and GitHub
+* `vim`
+
+## GitHub repositories
+
+* [osx-setup](https://github.com/rkiel/osx-setup) for step-by-step guide and `bash` setup
+* [git-utilities](https://github.com/rkiel/git-utilities) for various `git` setup
+* [vim-setup](https://github.com/rkiel/vim-setup) for `.vimrc` and `vim` plugins
+* [images-starter](https://github.com/rkiel/images-starter) collection of starter images for wallpaper and screen saver
+
 # Administration user
 
 ## Initial boot create `admin` user
