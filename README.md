@@ -135,6 +135,20 @@ git --version
 
 To build and install MacVim, follow the setup guide at [vim-setup](https://github.com/rkiel/vim-setup).
 
+# Creating a new development user
+
+I create one development user for each GitHub account.
+
+#### System Preferences
+* Users & Groups
+  * click **+**
+    * select **New Account** Standard
+    * enter **Full Name** (lower case)
+    * enter **Account Name** (lower case)
+    * click **Password** Use separate password
+    * enter password different from Administration user
+    * click **Create User**
+  * use Finder to drag an image onto the default user icon
 
 #### sudo
 
@@ -151,19 +165,6 @@ root    ALL=(ALL) ALL
 foo     ALL=(ALL) ALL
 bar     ALL=(ALL) ALL
 ```
-
-# Creating a new user
-
-#### System Preferences
-* Users & Groups
-  * click **+**
-    * select **New Account** Standard
-    * enter **Full Name** (lower case)
-    * enter **Account Name** (lower case)
-    * click **Password** Use separate password
-    * enter password different from Administration user
-    * click **Create User**
-  * use Finder to drag an image onto the default user icon
 
 # Development user
 
