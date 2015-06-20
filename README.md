@@ -96,6 +96,27 @@ bar     ALL=(ALL) ALL
 
 # Development user
 
+#### Preferences
+* Trackpad
+  * Point & Click
+    * enable **Tap To Click**
+    * disable **Secondary Click**
+    * diable **Lookup**
+    * enable **Three Finger Drag**
+  * Scroll & Zoom
+    * enable **Scroll direction: natural**
+    * enable **Zoom in or out**
+    * enable **Smart zoom**
+    * enable **Rotate**
+  * More Gestures
+    * enable **Swipe between pages**
+    * enable **Swipe between full-screen apps**
+    * enable **Notification Center**
+    * enable **Mission Control**
+    * enable **App Expose**
+    * enable **Launchpad**
+    * enable **Show Desktop**
+
 #### Finder
 * Preferences
   * Sidebar
@@ -119,12 +140,6 @@ bar     ALL=(ALL) ALL
 * Security & Privacy
   * General
     * make sure **Require password** is set
-* Trackpad
-  * enable **Tap To Click**
-  * enable **Three Finger Drag**
-  * enable **All More Gestures**
-  * disable **Secondary Click**
-  * diable **Lookup**
 
 #### Safari
 * Preferences
