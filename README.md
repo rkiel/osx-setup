@@ -27,8 +27,11 @@
 
 # Administration user
 
-## Initial boot create `admin` user
-* Install the latest updates
+Remove your Mac from the box.  Admire the awesome packaging.  Boot your Mac for the first time.
+
+When prompted, create `admin` the initial user
+
+Install the latest OS X updates.
 
 #### System Preferences
 * Trackpad
