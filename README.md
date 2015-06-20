@@ -9,8 +9,9 @@
 
 * Mac OS X
 * `bash`
-* `git` and GitHub
-* `vim`
+* `git`
+* GitHub
+* MacVim
 * Chrome
 
 ## GitHub repositories
@@ -29,7 +30,7 @@
 
 Remove your Mac from the box.  Admire the awesome packaging.  Boot your Mac for the first time.
 
-When prompted, create `admin` the initial user
+When prompted, create `admin` as the initial user
 
 Install the latest OS X updates.
 
@@ -93,7 +94,7 @@ Install the latest OS X updates.
     * drag Home button onto Safari navbar between Sidebar and the spacer
 
 #### Chrome
-* [Download](http://www.google.com/chrome/)
+* [Download](http://www.google.com/chrome/) and install
 * find in Applications and launch
   * find in Dock -> right click -> Options -> select **Keep in Dock**
 
@@ -113,17 +114,18 @@ Install the latest OS X updates.
       * **Rows** 24
 
 #### Xcode
-* okay, i guess i have to install this so i can build MacVim
 
-#### Xcode command line tools
-* use the following command to initiate the installation of the command line tools
+* If you are not going to build and install MacVim, then you only need to install the Xcode command line tools.  You can initiate the installation of the command line tools simply by trying to invoke one of them.  For example,
 
 ```
 gcc --version
 ```
 
+* If you are going to build and install MacVim, then you need to install the full Xcode.  Go to the App Store to install Xcode.
+
 #### Git
-* Verify that a recent version of `git` was installed.
+
+* OS X generally has a recent version of `git` already installed.
 
 ```
 git --version
