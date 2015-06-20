@@ -13,6 +13,8 @@
 * GitHub
 * MacVim
 * Chrome
+* VirtualBox
+* Vagrant
 
 ## GitHub repositories
 
@@ -135,6 +137,20 @@ git --version
 #### MacVim
 
 To build and install MacVim, follow the setup guide at [vim-setup](https://github.com/rkiel/vim-setup).
+
+#### VirtualBox
+
+* [Download](https://www.virtualbox.org/wiki/Downloads) VirtualBox 4.x for OS X hosts (x86/amd64)
+* Run the installer
+* create a VirtualBox-4.x folder in Documents
+* copy User Manual and Uninstall Tool into VirtualBox-4.x
+
+#### Vagrant
+
+* [Download](https://www.vagrantup.com/downloads.html) Vagrant 1.x for Mac OS X
+* Run the installer
+* create a Vagrant-1.x folder in Documents
+* copy Uninstall Tool into Vagrant-1.x
 
 # Creating a new development user
 
