@@ -3,13 +3,40 @@
 ## Initial boot create `admin` user
 * Install the latest updates
 
+#### System Preferences
+* Trackpad
+  * Point & Click
+    * enable **Tap To Click**
+    * disable **Secondary Click**
+    * diable **Lookup**
+    * enable **Three Finger Drag**
+  * Scroll & Zoom
+    * enable **Scroll direction: natural**
+    * enable **Zoom in or out**
+    * enable **Smart zoom**
+    * enable **Rotate**
+  * More Gestures
+    * enable **Swipe between pages**
+    * enable **Swipe between full-screen apps**
+    * enable **Notification Center**
+    * enable **Mission Control**
+    * enable **App Expose**
+    * enable **Launchpad**
+    * enable **Show Desktop**
+
 #### Finder
 * Preferences
   * Sidebar
-    * add Home (current user name)
-    * add Mac (current computer name)
+    * Favorites
+      * check Applications
+      * check Desktop
+      * check Documents
+      * check Downloads
+      * check Home icon (current user name)
+    * Devices
+      * check Mac icon (current computer name)
 
-#### Preferences
+#### System Preferences
 * Dock
   * decrease **Size**
   * enable **Magnification**
@@ -21,12 +48,6 @@
     * make sure **Require password** is set
 * Sharing
   * change the **Computer Name**
-* Trackpad
-  * enable **Tap To Click**
-  * enable **Three Finger Drag**
-  * enable **All More Gestures**
-  * disable **Secondary Click**
-  * diable **Lookup**
 
 #### Chrome
 * [Download](http://www.google.com/chrome/)
@@ -83,7 +104,7 @@ bar     ALL=(ALL) ALL
 
 # Creating a new user
 
-#### Preferences
+#### System Preferences
 * Users & Groups
   * click **+**
     * select **New Account** Standard
@@ -96,7 +117,7 @@ bar     ALL=(ALL) ALL
 
 # Development user
 
-#### Preferences
+#### System Preferences
 * Trackpad
   * Point & Click
     * enable **Tap To Click**
@@ -120,10 +141,16 @@ bar     ALL=(ALL) ALL
 #### Finder
 * Preferences
   * Sidebar
-    * add Home (current user name)
-    * add Mac (current computer name)
+    * Favorites
+      * check Applications
+      * check Desktop
+      * check Documents
+      * check Downloads
+      * check Home icon (current user name)
+    * Devices
+      * check Mac icon (current computer name)
 
-#### Preferences
+#### System Preferences
 * Desktop & Screen Saver
   * Desktop
     * choose picture
