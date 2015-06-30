@@ -70,6 +70,8 @@ Install the latest OS X updates.
       * check Mac icon (current computer name)
 
 #### System Preferences
+* Bluetooth
+  * check **Show Bluetooth in menu bar**
 * Dock
   * decrease **Size** to about 20%
   * enable **Magnification**
@@ -219,6 +221,8 @@ bar     ALL=(ALL) ALL
       * check Mac icon (current computer name)
 
 #### System Preferences
+* Bluetooth
+  * check **Show Bluetooth in menu bar**
 * Dock
   * decrease **Size** to about 20%
   * enable **Magnification**
