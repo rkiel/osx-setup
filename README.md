@@ -93,6 +93,14 @@ Install the latest OS X updates.
   * click **+** (on the far right) to add Desktop 4
 
 #### Safari
+* launch (in Applications)
+  * F3
+    * drag Sarari to Desktop 3
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
+
 * Preferences
   * General
     * set **Safari opens with** All windows from last session
@@ -276,6 +284,14 @@ bar     ALL=(ALL) ALL
   * click **+** (on the far right) to add Desktop 4
 
 #### Safari
+* launch (in Applications)
+  * F3
+    * drag Sarari to Desktop 3
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
+
 * Preferences
   * General
     * set **Safari opens with** All windows from last session
