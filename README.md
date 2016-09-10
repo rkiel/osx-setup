@@ -20,6 +20,7 @@
 
 * [osx-setup](https://github.com/rkiel/osx-setup) for step-by-step guide and `bash` setup
 * [git-utilities](https://github.com/rkiel/git-utilities) for various `git` setup
+* [atom-setup](https://github.com/rkiel/atom-setup) for `atom` setup
 * [vim-setup](https://github.com/rkiel/vim-setup) for `.vimrc` and `vim` plugins
 * [images-starter](https://github.com/rkiel/images-starter) collection of starter images for wallpaper and screen saver
 
@@ -56,20 +57,8 @@ Install the latest OS X updates.
     * enable **App Expose**
     * enable **Launchpad**
     * enable **Show Desktop**
-
-#### Finder
-* Preferences
-  * Sidebar
-    * Favorites
-      * check Applications
-      * check Desktop
-      * check Documents
-      * check Downloads
-      * check Home icon (current user name)
-    * Devices
-      * check Mac icon (current computer name)
-
-#### System Preferences
+* Mission Control
+  * uncheck **Automatically rearrange Spaces based on most recent**
 * Bluetooth
   * check **Show Bluetooth in menu bar**
 * Dock
@@ -84,6 +73,24 @@ Install the latest OS X updates.
     * select **immediately** after sleep or screen save begins
 * Sharing
   * change the **Computer Name**
+
+#### Finder
+* Preferences
+  * Sidebar
+    * Favorites
+      * check Applications
+      * check Desktop
+      * check Documents
+      * check Downloads
+      * check Home icon (current user name)
+    * Devices
+      * check Mac icon (current computer name)
+
+#### Mission Control
+* F3
+  * click **+** (on the far right) to add Desktop 2
+  * click **+** (on the far right) to add Desktop 3
+  * click **+** (on the far right) to add Desktop 4
 
 #### Safari
 * Preferences
@@ -100,12 +107,22 @@ Install the latest OS X updates.
 
 #### Chrome
 * [Download](http://www.google.com/chrome/) and install
-* find in Applications and launch
-  * find in Dock -> right click -> Options -> select **Keep in Dock**
+* launch (in Applications)
+  * F3
+    * drag Chrome to Desktop 1
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
 
 #### Terminal
-* find in Applications and launch
-  * find in Dock -> right click -> Options -> select **Keep in Dock**
+* launch (in Applications)
+  * F3
+    * drag Terminal to Desktop 4
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
 * Preferences
   * General
     * select **On startup, open** New window with profile Novel
@@ -139,6 +156,26 @@ git --version
 #### MacVim
 
 To build and install MacVim, follow the setup guide at [vim-setup](https://github.com/rkiel/vim-setup).
+
+* launch (in Applications)
+  * F3
+    * drag MacVim to Desktop 2
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
+
+#### Atom
+
+To install Atom, follow the setup guide at [atom-setup](https://github.com/rkiel/atom-setup).
+
+* launch (in Applications)
+  * F3
+    * drag Atom to Desktop 2
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
 
 #### VirtualBox
 
@@ -207,6 +244,18 @@ bar     ALL=(ALL) ALL
     * enable **App Expose**
     * enable **Launchpad**
     * enable **Show Desktop**
+* Mission Control
+  * uncheck **Automatically rearrange Spaces based on most recent**
+* Bluetooth
+  * check **Show Bluetooth in menu bar**
+* Dock
+  * decrease **Size** to about 20%
+  * enable **Magnification**
+  * check **Automatically hide and show the Dock**
+* Security & Privacy
+  * General
+    * check **Require password**
+    * select **immediately** after sleep or screen save begins
 
 #### Finder
 * Preferences
@@ -220,17 +269,11 @@ bar     ALL=(ALL) ALL
     * Devices
       * check Mac icon (current computer name)
 
-#### System Preferences
-* Bluetooth
-  * check **Show Bluetooth in menu bar**
-* Dock
-  * decrease **Size** to about 20%
-  * enable **Magnification**
-  * check **Automatically hide and show the Dock**
-* Security & Privacy
-  * General
-    * check **Require password**
-    * select **immediately** after sleep or screen save begins
+#### Mission Control
+* F3
+  * click **+** (on the far right) to add Desktop 2
+  * click **+** (on the far right) to add Desktop 3
+  * click **+** (on the far right) to add Desktop 4
 
 #### Safari
 * Preferences
@@ -246,12 +289,22 @@ bar     ALL=(ALL) ALL
     * drag Home button onto Safari navbar between Sidebar and the spacer
 
 #### Chrome
-* find in Applications and launch
-  * find in Dock -> right click -> Options -> select **Keep in Dock**
+* launch (in Applications)
+  * F3
+    * drag Chrome to Desktop 1
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
 
 #### Terminal
-* find in Applications and launch
-  * find in Dock -> right click -> Options -> select **Keep in Dock**
+* launch (in Applications)
+  * F3
+    * drag Terminal to Desktop 4
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
 * Preferences
   * General
     * select **On startup, open** New window with profile Novel
@@ -315,13 +368,7 @@ cd ~/GitHub/rkiel
 git clone git@github.com:rkiel/git-utilities.git
 ```
 
-#### Vim
-
-Create a backup directory
-
-```
-mkdir ~/.backup
-```
+#### MacVim
 
 Download a GitHub repository
 
@@ -332,12 +379,28 @@ cd ~/GitHub/rkiel
 git clone git@github.com:rkiel/vim-setup.git
 ```
 
-Setup dot files
+To configure MacVim, follow the **Local Environment** setup guide at [vim-setup](https://github.com/rkiel/vim-setup).
 
-```
-ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vimrc ~/.vimrc
-ln -nfs ~/GitHub/rkiel/vim-setup/dotfiles/vim ~/.vim
-```
+* launch (in Applications)
+  * F3
+    * drag MacVim to Desktop 2
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
+
+#### Atom
+
+To configure Atom, follow the **Configuration** setup guide at [atom-setup](https://github.com/rkiel/atom-setup).
+
+* launch (in Applications)
+  * F3
+    * drag Atom to Desktop 2
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
+
 #### Bash
 
 Create local bin directory
