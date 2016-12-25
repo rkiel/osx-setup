@@ -1,3 +1,5 @@
+# macOS Setup - Sierra Edition
+
 # Opinionated Setup
 
 * I want to spend my time doing development not getting my machine configured.
@@ -23,6 +25,10 @@
 * [atom-setup](https://github.com/rkiel/atom-setup) for `atom` setup
 * [vim-setup](https://github.com/rkiel/vim-setup) for `.vimrc` and `vim` plugins
 * [images-starter](https://github.com/rkiel/images-starter) collection of starter images for wallpaper and screen saver
+
+## Initial Boot
+
+* [README](INITIAL_BOOT.md)
 
 ## User accounts
 
