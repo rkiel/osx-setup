@@ -43,81 +43,8 @@ When prompted, create `admin` as the initial user
 
 Install the latest OS X updates.
 
-#### System Preferences
-* Trackpad
-  * Point & Click
-    * enable **Tap To Click**
-    * disable **Secondary Click**
-    * diable **Lookup**
-    * enable **Three Finger Drag**
-  * Scroll & Zoom
-    * enable **Scroll direction: natural**
-    * enable **Zoom in or out**
-    * enable **Smart zoom**
-    * enable **Rotate**
-  * More Gestures
-    * enable **Swipe between pages**
-    * enable **Swipe between full-screen apps**
-    * enable **Notification Center**
-    * enable **Mission Control**
-    * enable **App Expose**
-    * enable **Launchpad**
-    * enable **Show Desktop**
-* Mission Control
-  * uncheck **Automatically rearrange Spaces based on most recent**
-* Bluetooth
-  * check **Show Bluetooth in menu bar**
-* Dock
-  * decrease **Size** to about 20%
-  * enable **Magnification**
-  * check **Automatically hide and show the Dock**
-* Printers & Scanners
-  * add a printer and give it a name
-* Security & Privacy
-  * General
-    * check **Require password**
-    * select **immediately** after sleep or screen save begins
-* Sharing
-  * change the **Computer Name**
+* [Setup Preferences](PREFERENCES.md)
 
-#### Finder
-* Preferences
-  * Sidebar
-    * Favorites
-      * check Applications
-      * check Desktop
-      * check Documents
-      * check Downloads
-      * check Home icon (current user name)
-    * Devices
-      * check Mac icon (current computer name)
-
-#### Mission Control
-* F3
-  * click **+** (on the far right) to add Desktop 2
-  * click **+** (on the far right) to add Desktop 3
-  * click **+** (on the far right) to add Desktop 4
-
-#### Safari
-* launch (in Applications)
-  * F3
-    * drag Sarari to Desktop 3
-  * hover over the icon in Dock & right click
-    * follow **Options**
-      * select **Keep in Dock**
-      * select **This Desktop**
-
-* Preferences
-  * General
-    * set **Safari opens with** All windows from last session
-    * set **New windows open with** Empty Page
-    * set **New tabs open with** Empty Page
-    * set **Homepage** to https://www.google.com
-  * Advanced
-    * check **Show Develop menu in menu bar**
-* View
-  * Customize Toolbar
-    * drag Home button onto Safari navbar between Sidebar and the spacer
 
 #### Chrome
 * [Download](http://www.google.com/chrome/) and install
@@ -128,26 +55,6 @@ Install the latest OS X updates.
     * follow **Options**
       * select **Keep in Dock**
       * select **This Desktop**
-
-#### Terminal
-* launch (in Applications)
-  * F3
-    * drag Terminal to Desktop 4
-  * hover over the icon in Dock & right click
-    * follow **Options**
-      * select **Keep in Dock**
-      * select **This Desktop**
-* Preferences
-  * General
-    * select **On startup, open** New window with profile Novel
-  * Profile
-    * select **Novel**
-    * click **Default**
-    * Text
-      * use **Font** Menlo Regular 14pt
-    * Window
-      * **Columns** 128
-      * **Rows** 24
 
 #### Xcode
 
@@ -190,6 +97,10 @@ To install Atom, follow the setup guide at [atom-setup](https://github.com/rkiel
     * follow **Options**
       * select **Keep in Dock**
       * select **This Desktop**
+
+#### Evernote
+
+#### Spotify
 
 #### VirtualBox
 
