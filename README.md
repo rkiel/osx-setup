@@ -43,28 +43,25 @@ When prompted, create `admin` as the initial user
 
 Install the latest OS X updates.
 
-* [Setup Preferences](PREFERENCES.md)
-
-
 #### Chrome
 * [Download](http://www.google.com/chrome/) and install
-* launch (in Applications)
-  * F3
-    * drag Chrome to Desktop 1
-  * hover over the icon in Dock & right click
-    * follow **Options**
-      * select **Keep in Dock**
-      * select **This Desktop**
 
 #### Xcode
 
-* If you are not going to build and install MacVim, then you only need to install the Xcode command line tools.  You can initiate the installation of the command line tools simply by trying to invoke one of them.  For example,
+If you are going to build and install MacVim, then you need to install the full Xcode.  Go to the App Store to install Xcode.
 
-```
-gcc --version
+If you are not going to build and install MacVim, then you only need to install the Xcode command line tools.
+Check if the full Xcode package is already installed.
+
+```unix
+xcode-select -p
 ```
 
-* If you are going to build and install MacVim, then you need to install the full Xcode.  Go to the App Store to install Xcode.
+If not, you can use a command to install Xcode Command Line Tools. It will produce an alert box.
+
+```unix
+xcode-select --install
+```
 
 #### Git
 
@@ -74,37 +71,29 @@ gcc --version
 git --version
 ```
 
-#### MacVim
-
-To build and install MacVim, follow the setup guide at [vim-setup](https://github.com/rkiel/vim-setup).
-
-* launch (in Applications)
-  * F3
-    * drag MacVim to Desktop 2
-  * hover over the icon in Dock & right click
-    * follow **Options**
-      * select **Keep in Dock**
-      * select **This Desktop**
-
 #### Atom
 
 To install Atom, follow the setup guide at [atom-setup](https://github.com/rkiel/atom-setup).
 
-* launch (in Applications)
-  * F3
-    * drag Atom to Desktop 2
-  * hover over the icon in Dock & right click
-    * follow **Options**
-      * select **Keep in Dock**
-      * select **This Desktop**
+#### Spotify
+
+To install, go to [Spotify](https://www.spotify.com/)
+
+#### Basecamp 3
+
+To install, go to [Basecamp](https://www.basecamp.com/)
 
 #### Evernote
 
-#### Spotify
+Open App Store, search, and install.
+
+#### MacVim
+
+To build and install MacVim, follow the setup guide at [vim-setup](https://github.com/rkiel/vim-setup).
 
 #### VirtualBox
 
-* [Download](https://www.virtualbox.org/wiki/Downloads) VirtualBox 4.x for OS X hosts (x86/amd64)
+* [Download](https://www.virtualbox.org/wiki/Downloads) VirtualBox 5.x for OS X hosts (x86/amd64)
 * Run the installer
 * create a VirtualBox-4.x folder in Documents
 * copy User Manual and Uninstall Tool into VirtualBox-4.x
@@ -116,9 +105,12 @@ To install Atom, follow the setup guide at [atom-setup](https://github.com/rkiel
 * create a Vagrant-1.x folder in Documents
 * copy Uninstall Tool into Vagrant-1.x
 
-# Creating a new development user
+#### Preferences
 
-I create one development user for each GitHub account.
+* [Setup Preferences](PREFERENCES.md)
+
+
+# Creating a development user
 
 #### System Preferences
 * Users & Groups
@@ -143,112 +135,15 @@ sudo vim /private/etc/sudoers
 # User privilege specification
 root    ALL=(ALL) ALL
 %admin  ALL=(ALL) ALL
-foo     ALL=(ALL) ALL
-bar     ALL=(ALL) ALL
+bob     ALL=(ALL) ALL
+joe     ALL=(ALL) ALL
 ```
 
 # Development user
 
-#### System Preferences
-* Trackpad
-  * Point & Click
-    * enable **Tap To Click**
-    * disable **Secondary Click**
-    * diable **Lookup**
-    * enable **Three Finger Drag**
-  * Scroll & Zoom
-    * enable **Scroll direction: natural**
-    * enable **Zoom in or out**
-    * enable **Smart zoom**
-    * enable **Rotate**
-  * More Gestures
-    * enable **Swipe between pages**
-    * enable **Swipe between full-screen apps**
-    * enable **Notification Center**
-    * enable **Mission Control**
-    * enable **App Expose**
-    * enable **Launchpad**
-    * enable **Show Desktop**
-* Mission Control
-  * uncheck **Automatically rearrange Spaces based on most recent**
-* Bluetooth
-  * check **Show Bluetooth in menu bar**
-* Dock
-  * decrease **Size** to about 20%
-  * enable **Magnification**
-  * check **Automatically hide and show the Dock**
-* Security & Privacy
-  * General
-    * check **Require password**
-    * select **immediately** after sleep or screen save begins
+#### Preferences
 
-#### Finder
-* Preferences
-  * Sidebar
-    * Favorites
-      * check Applications
-      * check Desktop
-      * check Documents
-      * check Downloads
-      * check Home icon (current user name)
-    * Devices
-      * check Mac icon (current computer name)
-
-#### Mission Control
-* F3
-  * click **+** (on the far right) to add Desktop 2
-  * click **+** (on the far right) to add Desktop 3
-  * click **+** (on the far right) to add Desktop 4
-
-#### Safari
-* launch (in Applications)
-  * F3
-    * drag Sarari to Desktop 3
-  * hover over the icon in Dock & right click
-    * follow **Options**
-      * select **Keep in Dock**
-      * select **This Desktop**
-
-* Preferences
-  * General
-    * set **Safari opens with** All windows from last session
-    * set **New windows open with** Empty Page
-    * set **New tabs open with** Empty Page
-    * set **Homepage** to https://www.google.com
-  * Advanced
-    * check **Show Develop menu in menu bar**
-* View
-  * Customize Toolbar
-    * drag Home button onto Safari navbar between Sidebar and the spacer
-
-#### Chrome
-* launch (in Applications)
-  * F3
-    * drag Chrome to Desktop 1
-  * hover over the icon in Dock & right click
-    * follow **Options**
-      * select **Keep in Dock**
-      * select **This Desktop**
-
-#### Terminal
-* launch (in Applications)
-  * F3
-    * drag Terminal to Desktop 4
-  * hover over the icon in Dock & right click
-    * follow **Options**
-      * select **Keep in Dock**
-      * select **This Desktop**
-* Preferences
-  * General
-    * select **On startup, open** New window with profile Novel
-  * Profile
-    * select **Novel**
-    * click **Default**
-    * Text
-      * use **Font** Menlo Regular 14pt
-    * Window
-      * **Columns** 128
-      * **Rows** 24
+* [Setup Preferences](PREFERENCES.md)
 
 #### SSH
 

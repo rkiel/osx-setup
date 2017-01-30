@@ -119,3 +119,57 @@
     * Window
       * **Columns** 128
       * **Rows** 24
+
+#### Chrome
+* launch (in Applications)
+  * F3
+    * drag Chrome to Desktop 1
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
+
+#### Atom
+* launch (in Applications)
+  * F3
+    * drag Atom to Desktop 2
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
+
+#### Spotify
+* launch (in Applications)
+  * F3
+    * drag Spotify to Desktop 3
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
+
+#### Evernote
+* launch (in Applications)
+  * F3
+    * drag Evernote to Desktop 3
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
+
+#### Basecamp
+* launch (in Applications)
+  * F3
+    * drag Basecamp to Desktop 3
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
+
+#### MacVim
+* launch (in Applications)
+  * F3
+    * drag MacVim to Desktop 2
+  * hover over the icon in Dock & right click
+    * follow **Options**
+      * select **Keep in Dock**
+      * select **This Desktop**
