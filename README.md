@@ -225,18 +225,6 @@ To configure MacVim, follow the **Local Environment** setup guide at [vim-setup]
       * select **Keep in Dock**
       * select **This Desktop**
 
-#### Atom
-
-To configure Atom, follow the **Configuration** setup guide at [atom-setup](https://github.com/rkiel/atom-setup).
-
-* launch (in Applications)
-  * F3
-    * drag Atom to Desktop 2
-  * hover over the icon in Dock & right click
-    * follow **Options**
-      * select **Keep in Dock**
-      * select **This Desktop**
-
 #### Bash
 
 Create local bin directory
@@ -260,27 +248,3 @@ Setup dot files
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bash_profile ~/.bash_profile
 ln -nfs ~/GitHub/rkiel/osx-setup/dotfiles/bashrc ~/.bashrc
 ```
-
-#### Images
-
-Go to the shared user and download the starter wallpaper and screen saver images
-
-```
-cd /Users/Shared
-git clone git@github.com:rkiel/images-starter.git
-```
-
-#### System Preferences
-* Desktop & Screen Saver
-  * Desktop
-    * select **Fill Screen**
-    * click **+** to add a folder under `/Users/Shared/images-starter`
-    * check **Change picture:** Every 5 minutes
-    * check **Random order**
-  * Screen Saver
-    * select **Classic**
-    * choose **Source:** Choose Folder
-    * pick a folder under `/Users/Shared/images-starter`
-    * check **Shuffle slide order**
-    * select **Start after** 5 Minutes
-    * click **Hot Corners** and select **Start Screen Saver** for lower left and right
