@@ -105,10 +105,16 @@ To build and install MacVim, follow the setup guide at [vim-setup](https://githu
 * create a Vagrant-1.x folder in Documents
 * copy Uninstall Tool into Vagrant-1.x
 
+#### Images
+
+```
+cd /Users/Shared
+git clone https://github.com/rkiel/images-starter.git
+```
+
 #### Preferences
 
 * [Setup Preferences](PREFERENCES.md)
-
 
 # Creating a development user
 
@@ -138,6 +144,8 @@ root    ALL=(ALL) ALL
 bob     ALL=(ALL) ALL
 joe     ALL=(ALL) ALL
 ```
+
+#### logout
 
 # Development user
 

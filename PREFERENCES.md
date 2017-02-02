@@ -52,6 +52,19 @@
     * select **immediately** after sleep or screen save begins
 * Sharing
   * change the **Computer Name**
+* Desktop & Screen Saver
+  * Desktop
+    * click **+** to add a folder under `/Users/Shared/images-starter`
+    * check **Change picture:** Every 5 minutes
+    * check **Random order**
+    * select **Fill Screen**
+  * Screen Saver
+    * select **Classic**
+    * choose **Source:** Choose Folder
+    * pick a folder under `/Users/Shared/images-starter`
+    * check **Shuffle slide order**
+    * select **Start after** 5 Minutes
+    * click **Hot Corners** and select **Start Screen Saver** for lower left and right
 
 #### Mission Control
 * F3
