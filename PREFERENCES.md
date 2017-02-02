@@ -1,3 +1,15 @@
+#### Finder
+* Preferences
+  * Sidebar
+    * Favorites
+      * check Applications
+      * check Desktop
+      * check Documents
+      * check Downloads
+      * check Home icon (current user name)
+    * Devices
+      * check Mac icon (current computer name)
+
 #### System Preferences
 * Trackpad
   * Point & Click
@@ -5,7 +17,8 @@
       * select **Tap with three fingers**
     * enable **Secondary Click**
       * select **Click or tap with two fingers**
-    * enable **Three Finger Drag**
+    * enable **Tap to click**
+      * select **Tap with one finger**
   * Scroll & Zoom
     * enable **Scroll direction: natural**
     * enable **Zoom in or out**
@@ -73,16 +86,6 @@
   * click **+** (on the far right) to add Desktop 4
 
 #### Finder
-* Preferences
-  * Sidebar
-    * Favorites
-      * check Applications
-      * check Desktop
-      * check Documents
-      * check Downloads
-      * check Home icon (current user name)
-    * Devices
-      * check Mac icon (current computer name)
 * launch (in Applications)
   * F3
     * drag Finder to Desktop 1
