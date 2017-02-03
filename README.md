@@ -105,6 +105,25 @@ To build and install MacVim, follow the setup guide at [vim-setup](https://githu
 * create a Vagrant-1.x folder in Documents
 * copy Uninstall Tool into Vagrant-1.x
 
+#### Homebrew
+
+* [Homebrew](http://brew.sh/)
+* copy/paste the installation command
+
+```unix
+brew doctor
+brew search node
+brew install node@6
+brew install yarn
+```
+
+If necessary, switch `node` to the LTS version
+
+```unix
+cd /usr/local/bin
+ln -nfs ../Cellar/node@6/6.9.5/bin/node .
+```
+
 #### Images
 
 ```
