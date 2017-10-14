@@ -4,3 +4,6 @@ source ~/GitHub/rkiel/node-utilities/dotfiles/bashrc
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 alias more='less -RX'
+alias sl='ls'
+alias lsl='ls -l'
+alias lsa='ls -la'
