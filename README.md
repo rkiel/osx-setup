@@ -75,6 +75,10 @@ git --version
 
 To install Atom, follow the setup guide at [atom-setup](https://github.com/rkiel/atom-setup).
 
+#### Visual Studio Code
+
+To install VS Code, follow the setup guide at [vscode-setup](https://github.com/rkiel/vscode-setup).
+
 #### Spotify
 
 To install, go to [Spotify](https://www.spotify.com/)
