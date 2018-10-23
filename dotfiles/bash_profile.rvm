@@ -1,14 +1,10 @@
 export OSX_SETUP_BIN="~/GitHub/rkiel/osx-setup/bin"
 export GIT_UTILITIES_BIN="~/GitHub/rkiel/git-utilities/bin"
-export NODE_UTILITIES_BIN="~/GitHub/rkiel/node-utilities/bin"
-export AWS_UTILITIES_BIN="~/GitHub/rkiel/aws-utilities/bin"
 export VIM_BIN="~/GitHub/rkiel/vim-setup/bin"
 export LOCAL_BIN="~/bin"
 
 export PATH=${VIM_BIN}:$PATH
 export PATH=${GIT_UTILITIES_BIN}:$PATH
-export PATH=${NODE_UTILITIES_BIN}:$PATH
-export PATH=${AWS_UTILITIES_BIN}:$PATH
 export PATH=${OSX_SETUP_BIN}:$PATH
 export PATH=${LOCAL_BIN}:$PATH
 
@@ -28,7 +24,3 @@ if [ -f ~/.bashrc_local ]; then
 fi
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-# source ~/GitHub/rkiel/vscode-setup/vs-code.bash
-
-export PATH="/usr/local/opt/node@8/bin:$PATH"

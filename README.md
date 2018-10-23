@@ -22,6 +22,8 @@
 
 * [osx-setup](https://github.com/rkiel/osx-setup) for step-by-step guide and `bash` setup
 * [git-utilities](https://github.com/rkiel/git-utilities) for various `git` setup
+* [node-utilities](https://github.com/rkiel/node-utilities) for various `node` setup
+* [aws-utilities](https://github.com/rkiel/aws-utilities) for various AWS CLI setup
 * [atom-setup](https://github.com/rkiel/atom-setup) for `atom` setup
 * [vim-setup](https://github.com/rkiel/vim-setup) for `.vimrc` and `vim` plugins
 * [images-starter](https://github.com/rkiel/images-starter) collection of starter images for wallpaper and screen saver
@@ -37,18 +39,19 @@
 
 # Administration user
 
-Remove your Mac from the box.  Admire the awesome packaging.  Boot your Mac for the first time.
+Remove your Mac from the box. Admire the awesome packaging. Boot your Mac for the first time.
 
 When prompted, create `admin` as the initial user
 
 Install the latest OS X updates.
 
 #### Chrome
+
 * [Download](http://www.google.com/chrome/) and install
 
 #### Xcode
 
-If you are going to build and install MacVim, then you need to install the full Xcode.  Go to the App Store to install Xcode.
+If you are going to build and install MacVim, then you need to install the full Xcode. Go to the App Store to install Xcode.
 
 If you are not going to build and install MacVim, then you only need to install the Xcode command line tools.
 Check if the full Xcode package is already installed.
@@ -136,6 +139,7 @@ brew search node
 brew install node@6
 brew install yarn
 ```
+
 If necessary, switch `node` to the LTS version
 
 ```unix
@@ -152,6 +156,7 @@ brew install gpg
 # Creating a development user
 
 #### System Preferences
+
 * Users & Groups
   * click **+**
     * select **New Account** Standard
@@ -189,27 +194,31 @@ joe     ALL=(ALL) ALL
 #### SSH
 
 create public/private keys with a passphrase
+
 ```
 ssh-keygen -t rsa -C "foo@bar.com"
 ```
 
 verify you can read your private key
+
 ```
 openssl rsa -noout -text -in ~/.ssh/id_rsa
 ```
 
 add credentials to the authentication agent and Key Chain
+
 ```
 ssh-add -K
 ```
 
 copy public key into paste buffer
+
 ```
 cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
-
 #### GitHub
+
 * Setting
   * SSH Keys
     * click **Add SSH Key**
@@ -290,10 +299,10 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 
 ```unix
  \curl -sSL https://get.rvm.io | bash -s stable --autolibs=homebrew
- ```
- 
- ```unix
- source /Users/rkiel/.rvm/scripts/rvm
+```
+
+```unix
+source /Users/rkiel/.rvm/scripts/rvm
 ```
 
 ```unix
