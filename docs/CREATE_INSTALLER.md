@@ -2,6 +2,17 @@
 
 [How to create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
 
+Launch the App Store
+
+```bash
+open -a 'App Store'
+```
+
+* Seach for *Mojave*
+* Click 'macOS Mojave'
+* Click 'Download'
+* Quit
+
 Insert your USB Flash Drive
 
 List file systems available for formatting.
