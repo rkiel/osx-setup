@@ -1,6 +1,9 @@
 
+## Create A Bootable Installer for macOS
 
-[How to create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
+Watch this video for a complete walk thru of the process.
+
+* [How to create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
 
 Launch the App Store
 
