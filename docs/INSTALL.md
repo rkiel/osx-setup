@@ -30,6 +30,7 @@ Set the correct Disk Identifier.
 ```bash
 FILE_SYSTEM=JHFS+
 DISK_NAME=Mojave
+INSTALL_APP='Install macOS Mojave.app'
 
 DISK_IDENTIFIER=disk9999
 ```
@@ -45,7 +46,7 @@ diskutil eraseDisk $FILE_SYSTEM $DISK_NAME $DISK_IDENTIFIER
 Create a bootable installer.
 
 ```bash
-sudo '/Applications/Install macOS Mojave.app/Contents/Resources/createinstallmedia' --volume /Volumes/$DISK_NAME
+sudo /Applications/$INSTALL_APP/Contents/Resources/createinstallmedia' --volume /Volumes/$DISK_NAME
 ```
 
 Eject the UBS Flash Drive
